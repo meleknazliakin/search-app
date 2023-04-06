@@ -1,0 +1,25 @@
+.listContainer {
+  border: 2px solid #000000;
+  border-top: 0;
+
+  .item {
+    padding: 8px 0;
+    
+    .nameArea {
+      font-size: 20px;
+    }
+
+    .infoArea {    
+      font-size: 16px;  
+
+      img {
+        height: 16px;
+        margin-right: 4px;
+      }
+    }
+
+    &:nth-child(2n + 1) {
+      background-color: #E7E7E7;
+    }
+  }
+}
